@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff81d4fa" >
+    <TextView
+        android:text="Family Background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="160px"
+        android:textColor="@android:color/black"
+        android:fontFamily="cursive"
+        android:textAlignment="center" 
+        />
+
+
+  <EditText
+        android:text="Julieta S. Auman"
+        android:layout_marginTop="100px"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180px"
+        android:layout_marginRight="180px"
+        android:textSize="100px"
+        android:id="@+id/editText1" 
+        
+        />
+
+    <TextView
+        android:text="Mother's Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" 
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textSize="80px"
+        />
+  
+     <EditText
+        android:text="Alejandro S. Auman"
+        android:layout_marginTop="100px"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180px"
+        android:layout_marginRight="180px"
+        android:textSize="100px"
+        android:id="@+id/editText2" 
+        
+        />
+
+    <TextView
+        android:text="Father's Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" 
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textSize="80px"
+        />
+
+    <EditText
+        android:text="Siblings:"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180px"
+        android:layout_marginRight="800px"
+        android:textSize="100px"
+        android:id="@+id/editText3" 
+        
+        />
+
+     <TextView
+        android:text="1. Shela mea S. Auman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/textView4" 
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="80px"
+        />
+
+    <TextView
+        android:text="2. Shena mea S. Auman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" 
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="80px"
+        />
+    <TextView
+        android:text="3. Andrew S. Auman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" 
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="80px"
+        />
+
+      <Button
+        android:text="Next >"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFamBack"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="52.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="0.0dp"
+        android:backgroundTint="#14248A" />
+
+</LinearLayout>

@@ -30,7 +30,7 @@ namespace App3
 
             AlertDialog.Builder alertnext3 = new AlertDialog.Builder(this);
             alertnext3.SetTitle("Next");
-            alertnext3.SetMessage("Do you want to start the tour?");
+            alertnext3.SetMessage("Do you want to start?");
             alertnext3.SetIcon(Resource.Drawable.alert);
             alertnext3.SetPositiveButton("Ok", delegate
             {

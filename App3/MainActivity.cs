@@ -17,9 +17,10 @@ namespace App3
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-            Button start = FindViewById<Button>(Resource.Id.btnOpen);
-            start.Click += Start_Click;
+            Button start_s = FindViewById<Button>(Resource.Id.Open);
+            start_s.Click += Start_Click;
         }
+
 
         private void Start_Click(object sender, System.EventArgs e)
         {

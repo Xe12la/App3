@@ -85,7 +85,7 @@
         />
 
     <ImageView
-        android:src="@drawable/picture2x2"
+        android:src="@drawable/2x2mj"
         android:layout_width="215.0dp"
         android:layout_height="211.5dp"
         android:layout_centerHorizontal="true"
@@ -198,7 +198,7 @@
         android:text="Open"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnOpen"
+        android:id="@+id/Open"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="520.0dp"
